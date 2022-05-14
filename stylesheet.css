@@ -1,0 +1,110 @@
+body {
+  background-color: gray;
+  font-family: "Comfortaa", cursive;
+}
+#heading {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  margin: 0 20px;
+}
+#title {
+  font-size: 3vw;
+  font-weight: 800;
+  text-align: center;
+  text-shadow: black;
+}
+#img-div {
+  background-color: silver;
+  border-radius: 20px;
+  height: 100%;
+  width: auto;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+#image {
+  width: 60vw;
+  border-radius: 25px;
+  border: 3px solid black;
+}
+#img-caption {
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: 1vw;
+  box-sizing: border-box;
+}
+#data-head {
+  background-color: white;
+  border-radius: 20px;
+  margin: 0 20px;
+}
+#sub-head {
+  text-align: center;
+  font-size: 2vw;
+}
+#tribute-info {
+  background-color: silver;
+  border-radius: 20px;
+  margin: 0 20px;
+}
+#tribute-info ul {
+  padding-top: 10px;
+  padding-right: 20px;
+}
+#tribute-info li {
+  list-style-type: circle;
+  list-style-position: inside;
+  font-size: 1vw;
+}
+#end-note {
+  background-color: silver;
+  border-radius: 20px;
+  margin: 0 25px;
+}
+#note {
+  text-align: center;
+  padding: 5px 0;
+  font-size: 0.7vw;
+}
+#note a:hover {
+  font-size: 1vw;
+}
+@media screen and (min-width: 551px) {
+  #title {
+    font-size: 4.5vw;
+  }
+  #img-caption {
+    font-size: 1.3vw;
+  }
+  #sub-head {
+    font-size:3vw;
+  }
+  #tribute-info li {
+    font-size: 1.5vw;
+  }
+  #note {
+    font-size: 1vw;
+  }
+}
+@media screen and (max-width: 550px) {
+  #title {
+    font-size: 4vw;
+  }
+  #img-caption {
+    font-size: 2vw;
+  }
+  #sub-head {
+    font-size: 3vw;
+  }
+  #tribute-info li {
+    font-size: 2.5vw;
+  }
+  #note {
+    font-size: 1.5vw;
+  }
+}
